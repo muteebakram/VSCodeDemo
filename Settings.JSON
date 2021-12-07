@@ -1,0 +1,76 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "python.formatting.blackPath": "/usr/local/bin/black",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "89"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "editor.fontSize": 18,
+    "workbench.activityBar.visible": true,
+    "search.showLineNumbers": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 16,
+    "git.ignoreLegacyWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.showStartPage": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "debug.javascript.autoAttachFilter": "disabled",
+    "oneDarkPro.editorTheme": "vscode",
+    "oneDarkPro.italic": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.xml": "default"
+    },
+    "python.linting.enabled": true,
+    "remote.downloadExtensionsLocally": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "window.zoomLevel": -2,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "diffEditor.ignoreTrimWhitespace": false,
+}
